@@ -1,5 +1,6 @@
 ## 手写代码
 - [EventBus](./手写代码/实现EventBus.md)
+- [Promise](./手写代码/实现最简单的Promise.md)
 
 ## 设计模式
 
