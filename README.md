@@ -14,12 +14,6 @@
 - [装饰者模式](./设计模式/装饰者模式.md)
 - [组合模式](./设计模式/组合模式.md)
 
-## 手写代码
-- [EventBus](./手写代码/实现EventBus.md)
-
-### 其他
-- [CSS](./CSS)
-
 
 简述中介者模式，代理模式，外观模式区别与联系
 
@@ -34,5 +28,11 @@
 - [JavaScript中常见的十五种设计模式](https://www.cnblogs.com/imwtr/p/9451129.html#o13)
 - [设计模式这样学也太简单了吧！](https://juejin.cn/post/6953423646664687652#heading-47)
 
+
+## 手写代码
+- [EventBus](./手写代码/实现EventBus.md)
+
+### 其他
+- [CSS](./CSS)
 
 
