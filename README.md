@@ -45,8 +45,8 @@
 - [js编译原理](./浏览器/js编译原理.md)
 
 ## JS-ES6
-- [JS-ES6](./JS-ES6/index)
+- [JS-ES6](./JS-ES6/index.md)
 
 ## CSS
-- [CSS](./CSS/index)
+- [CSS](./CSS/index.md)
 
