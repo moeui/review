@@ -7,3 +7,5 @@ JS编译分三个步骤，词法分析、语法分析以及代码生成。编译
 在词法分析阶段，JS引擎会将上面的代码分割从最小的Token，，也就是"let、a、=、2、;"。然后JS引擎会将词法分析的结果做语法分析，并生成由元素逐级嵌套的代表程序语法结构的树，也就是抽象语法树（Abstract Syntax Tree），简称AST。最终将AST转换成一组机器指令，用来创建一个叫做a的变量，包括分配内存等，并存储一个值在a中。
 
 上面就是JS引擎编译js的大体过程，而对babel来讲，也是大体使用了该原理，不过在这个过程中，babel编译的目标一般是es5，这个经历的阶段也是词法分析、语法分析、生成AST、转换成es5的AST，然后再生成对于的js代码。
+
+这里推荐看一个简版的编译器[the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
