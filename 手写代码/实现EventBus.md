@@ -1,44 +1,47 @@
-# 实现EventBus
+# 实现 EventBus
 
 ## Intro
-EventBus是一种事件[发布订阅者模式](../设计模式/观察者模式和发布订阅者模式.md#发布订阅者模式)，可以实现跨页面、组件的解耦
+
+EventBus 是一种事件[发布订阅者模式](../设计模式/观察者模式和发布订阅者模式.md#发布订阅者模式)，可以实现跨页面、组件的解耦
 
 ## 流程
+
 ![avatar](img/EventBus.png)
 
 ## 实现
+
 ```js
 class EventBus {
   constructor() {
     this.events = {};
   }
   on(type, callback, scope, ...args) {
-    if (typeof this.events[type] === 'undefined') {
+    if (typeof this.events[type] === "undefined") {
       this.events[type] = [];
     }
-    this.events[type].push({ type, callback, scope, args })
+    this.events[type].push({ type, callback, scope, args });
   }
   emit(type, ...args) {
-    if (typeof this.events[type] === 'undefined') return
-    const events = this.events[type].slice()
-    const argArr = [...args, ...event.args]
-    for(const event of events) {
+    if (typeof this.events[type] === "undefined") return;
+    const events = this.events[type].slice();
+    const argArr = [...args, ...event.args];
+    for (const event of events) {
       if (event.callback) {
-        event.callback.call(event.scope, argArr)
+        event.callback.call(event.scope, argArr);
       }
     }
   }
   off(type, callback, scope, ...args) {
-    if (typeof this.events[type] === 'undefined') return
-    const filterFn = e => e.callback !== callback ||  e.scope !== scope
-    this.events[type] = this.events[type].filter(filterFn)
+    if (typeof this.events[type] === "undefined") return;
+    const filterFn = (e) => e.callback !== callback || e.scope !== scope;
+    this.events[type] = this.events[type].filter(filterFn);
   }
   once(type, callback, scope) {
     const cb = (...args) => {
       callback(...args);
-      this.off(type, callback, scope)
-    }
-    this.on(type, callback, scope, ...args)
+      this.off(type, callback, scope);
+    };
+    this.on(type, callback, scope, ...args);
   }
 }
 
