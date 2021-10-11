@@ -1,0 +1,3 @@
+- [1.Doctype作用](./1.Doctype作用.md)
+- [2.html5有哪些新特性](./2.html5有哪些新特性.md)
+- [3.sessionStorage、localStorage、cookie](./3.前端的存储方式.md)

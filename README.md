@@ -47,6 +47,9 @@
 ## JS-ES6
 - [JS-ES6](./JS-ES6/index.md)
 
+## HTML
+- [HTML](./HTML/index.md)
+
 ## CSS
 - [CSS](./CSS/index.md)
 
