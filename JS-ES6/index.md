@@ -22,3 +22,4 @@
 - [22.DOM和BOM](./22.DOM和BOM.md)
 - [23.null和undefined](./23.null和undefined.md)
 - [24.内存泄漏](./24.内存泄漏.md)
+- [25.垃圾回收](./25.垃圾回收.md)
