@@ -44,8 +44,11 @@
 - [V8引擎是怎么工作的](./浏览器/V8引擎是怎么工作的.md)
 - [js编译原理](./浏览器/js编译原理.md)
 
-## JS-ES6
-- [JS-ES6](./JS-ES6/index.md)
+## JS
+- [JS](./JS/index.md)
+
+## ES6
+- [ES6](./ES6/index.md)
 
 ## HTML
 - [HTML](./HTML/index.md)
