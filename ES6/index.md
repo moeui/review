@@ -1,2 +1,3 @@
 - [1.var、let、const](./1.var、let、const.md)
 - [2.Object对象扩展](./2.Object对象扩展.md)
+- [3.Array数组扩展](./3.Array数组扩展.md)
