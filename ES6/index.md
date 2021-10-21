@@ -1,3 +1,6 @@
 - [1.var、let、const](./1.var、let、const.md)
 - [2.Object对象扩展](./2.Object对象扩展.md)
 - [3.Array数组扩展](./3.Array数组扩展.md)
+- [4.函数数组扩展](./4.函数数组扩展.md)
+- [5.Set和Map](./5.Set和Map.md)
+- [6.promise](./6.promise.md)
