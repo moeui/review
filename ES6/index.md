@@ -5,3 +5,4 @@
 - [5.Set和Map](./5.Set和Map.md)
 - [6.promise](./6.promise.md)
 - [7.async_await](./7.async_await.md)
+- [8.字符串扩展](./8.字符串扩展.md)
