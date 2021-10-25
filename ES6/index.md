@@ -9,6 +9,10 @@
 - [8.字符串扩展](./8.字符串扩展.md)
 - [9.运算符的扩展](./9.运算符的扩展.md)
 - [10.Symbol是什么](10.Symbol是什么.md)
+- [11.ES6的proxy的理解](11.ES6的proxy的理解.md)
+- [12.Iterator(迭代器)](12.Iterator(迭代器).md)
+- [13.Generator(生成器)](13.Generator(生成器).md)
+- [14.extends(继承)](14.extends(继承).md)
 
 
 - [说一下你所知道的es6](es5和es6的区别，说一下你所知道的es6.md)
