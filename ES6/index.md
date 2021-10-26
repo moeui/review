@@ -1,3 +1,5 @@
+
+- [0.说一下你所知道的es6](0.es5和es6的区别，说一下你所知道的es6.md)
 - [1.var、let、const](./1.var、let、const.md)
 - [2.Object对象扩展](./2.Object对象扩展.md)
 - [3.Array数组扩展](./3.Array数组扩展.md)
@@ -13,6 +15,5 @@
 - [12.Iterator(迭代器)](12.Iterator(迭代器).md)
 - [13.Generator(生成器)](13.Generator(生成器).md)
 - [14.extends(继承)](14.extends(继承).md)
-
-
-- [说一下你所知道的es6](es5和es6的区别，说一下你所知道的es6.md)
+- [15.Decorator(装饰器)](15.Decorator(装饰器).md)
+- [16.说说事件循环机制](16.说说事件循环机制.md)
