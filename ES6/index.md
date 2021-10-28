@@ -16,4 +16,3 @@
 - [13.Generator(生成器)](13.Generator(生成器).md)
 - [14.extends(继承)](14.extends(继承).md)
 - [15.Decorator(装饰器)](15.Decorator(装饰器).md)
-- [16.说说事件循环机制](16.说说事件循环机制.md)
