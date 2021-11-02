@@ -1,0 +1,4 @@
+- [1.computed 和 watch 区别](1.computed和watch区别.md)
+- [2.生命周期钩子函数](2.生命周期钩子函数.md)
+- [3.keep-alive](3.keep-alive.md)
+- [4.组件通信有哪些方式](4.组件通信有哪些方式.md)
