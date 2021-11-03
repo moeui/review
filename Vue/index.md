@@ -2,3 +2,5 @@
 - [2.生命周期钩子函数](2.生命周期钩子函数.md)
 - [3.keep-alive](3.keep-alive.md)
 - [4.组件通信有哪些方式](4.组件通信有哪些方式.md)
+- [5.mixin和mixins](5.mixin和mixins.md)
+- [6.v-show和v-if](6.v-show和v-if.md)
