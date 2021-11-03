@@ -4,3 +4,4 @@
 - [4.组件通信有哪些方式](4.组件通信有哪些方式.md)
 - [5.mixin和mixins](5.mixin和mixins.md)
 - [6.v-show和v-if](6.v-show和v-if.md)
+- [7.组件中的data](7.组件中的data.md)
