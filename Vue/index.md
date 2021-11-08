@@ -19,3 +19,8 @@
 - [19.函数组件应用](19.函数组件应用.md)
 - [20.Vue SSR](20.VueSSR.md)
 - [21.Vue-router路由模式的实现原理](21.Vue-router路由模式的实现原理.md)
+- [22.Vue-router路由生命周期](22.Vue-router路由生命周期.md)
+- [23.Vue-router面试题汇总](23.Vue-router面试题汇总.md)
+- [24.什么是Vuex](24.什么是Vuex.md)
+- [25.Vuex的工作原理](25.Vuex的工作原理.md)
+- [26.slot插槽和slot-scope作用域插槽](26.slot插槽和slot-scope作用域插槽.md)
