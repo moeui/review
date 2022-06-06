@@ -3,7 +3,9 @@
 这里介绍通过SSH方式来连接远程仓库的方式。
 
 ## 创建新的SSH key
-    ssh-keygen -t rsa -C "your-email-address"
+    ssh-keygen -t rsa -C "your-email-address"                    // rsa 算法
+    ssh-keygen -t ed25519 -f ed25519  -C "your-email-address"    // ed25519 算法
+
 
 默认的 key 保存路径为 ~/.ssh/id_rsa，这里我们最好重新命名，因为我们是为第二个github账号生成key, 所以最好不要覆盖默认的key. 我们可以命名为 ~/.ssh/id_rsa_second。
 
