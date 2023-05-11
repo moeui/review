@@ -34,6 +34,11 @@
       HostName github.com
       User git
       IdentityFile ~/.ssh/id_rsa_second
+      
+## ssh-add默认将制定的秘钥添加在当前运行的ssh-agent服务中
+
+    ssh-add ~/.ssh/id_rsa
+    ssh-add ~/.ssh/id_rsa_second
 
 
 ## 如何使用
