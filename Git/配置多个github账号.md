@@ -12,7 +12,7 @@
 将生成的 key 和 github账号绑定
 登录github账号并在设置中新增 ssh 配置，并将 ~/.ssh/id_rsa_second.pub文件的内容拷贝过来。
 
-## 拷贝命令： 
+## 拷贝文件到 ~/.ssh/
     pbcopy < ~/.ssh/id_rsa_second.pub
 
 ## 创建多账号配置文件
@@ -20,7 +20,7 @@
     touch ~/.ssh/config
     vim config
 
-## config文件的内容如下：
+## config文件的内容如下
 
     #Default GitHub
     Host github.com
